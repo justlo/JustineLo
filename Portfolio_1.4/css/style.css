@@ -320,7 +320,10 @@ h1, h2, h3{
   margin-right: 25px;
 }
 .photo-tile {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+  /*max-width: 450px;*/
+  /*padding-left: 25px;*/
+  /*padding-right: 25px;*/
   /*margin: 30px;*/
   /*padding-left: 25px;
   padding-right: 25px;*/
@@ -329,8 +332,8 @@ h1, h2, h3{
 }
 
 .photo-tile-text {
-  padding-top: 60px;
-  padding-bottom: 25px;
+  padding-top: 75px;
+  /*padding-bottom: 25px;*/
 }
 .photo-tile p {
   /*position: absolute;*/
