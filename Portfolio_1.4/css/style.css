@@ -362,7 +362,10 @@ h1, h2, h3{
 
   }
 }
-
+#photo_slideshow {
+  padding-top: 15%;
+}
+.mySlides {display:none;}
 
 /*END Photography Section*/
 
