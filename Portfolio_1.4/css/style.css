@@ -59,6 +59,7 @@ h1, h2, h3{
 
 #leftAbout span{
   font-size: 2em;
+  left: 50%;
   /*font-weight: bold;*/
 }
 
