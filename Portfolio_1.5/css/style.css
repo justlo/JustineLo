@@ -51,22 +51,22 @@ h1, h2, h3{
   width: 12px;
   height: 12px;
   float: left;
-  background:  url(../images/navDot_3.png) center bottom no-repeat;
+  background:  url(../images/navDot5.png) center bottom no-repeat;
   background-size: 100%;
   cursor: pointer;
   position: relative;
   text-align: left;
 }
 .dot:hover{
-  background:  url(../images/navDot_3.png) center top no-repeat;
+  background:  url(../images/navDot5.png) center top no-repeat;
   background-size: 100%;
 }
 .thumbOff{
-  background:  url(../images/navDot_3.png) center bottom no-repeat;
+  background:  url(../images/navDot5.png) center bottom no-repeat;
   background-size: 100%;
 }
 .thumbOn{
-  background:  url(../images/navDot_3.png) center top no-repeat;
+  background:  url(../images/navDot5.png) center top no-repeat;
   background-size: 100%;
 }
 .dot p{
