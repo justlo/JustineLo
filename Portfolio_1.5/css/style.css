@@ -51,26 +51,27 @@ h1, h2, h3{
   width: 12px;
   height: 12px;
   float: left;
-  background:  url(../images/navDot.png) center bottom no-repeat;
+  background:  url(../images/navDot_3.png) center bottom no-repeat;
   background-size: 100%;
   cursor: pointer;
   position: relative;
   text-align: left;
 }
 .dot:hover{
-  background:  url(../images/navDot.png) center top no-repeat;
+  background:  url(../images/navDot_3.png) center top no-repeat;
   background-size: 100%;
 }
 .thumbOff{
-  background:  url(../images/navDot.png) center bottom no-repeat;
+  background:  url(../images/navDot_3.png) center bottom no-repeat;
   background-size: 100%;
 }
 .thumbOn{
-  background:  url(../images/navDot.png) center top no-repeat;
+  background:  url(../images/navDot_3.png) center top no-repeat;
   background-size: 100%;
 }
 .dot p{
-  color: black;
+  color: #4d4d4d
+  /*black;*/
   float: left;
   display: inline-block;
   width: 120px;
@@ -100,7 +101,9 @@ h1, h2, h3{
 #particles-js{
   width: 100%;
   /*height: 100%;*/
-  background-color: #4d4d4d;
+  background-color: #333333;
+  /*black;*/
+  /*#4d4d4d;*/
   /*white;*/
   background-image: url('');
   background-size: cover;
@@ -381,7 +384,8 @@ h1, h2, h3{
 /*Contact Section*/
 #contact{
   height: 200px;
-  background-color: #4d4d4d;
+  background-color: #333333;
+  /*#4d4d4d;*/
   /*white;*/
 }
 .contact_child{
