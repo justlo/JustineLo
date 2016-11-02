@@ -57,11 +57,11 @@ font-family: 'Roboto', sans-serif;
   background-size: 100%;
 }
 .thumbOff{
-  background:  url(../images/navDot5.png) center bottom no-repeat;
+  background:  url(../images/navDot.png) center bottom no-repeat;
   background-size: 100%;
 }
 .thumbOn{
-  background:  url(../images/navDot5.png) center top no-repeat;
+  background:  url(../images/navDot.png) center top no-repeat;
   background-size: 100%;
 }
 .dot p{
