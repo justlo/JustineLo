@@ -1,0 +1,18 @@
+.container-fluid {
+  /*min-height: 1000px;*/
+  padding: 0; important!
+}
+.block {
+  /*max-height: 850px;*/
+}
+#first-div {
+  background-color: white;
+  position: relative;
+}
+#particles-js {
+  display: flex;
+  justify-content: center;
+}
+#hello_img {
+  position: absolute;
+}
