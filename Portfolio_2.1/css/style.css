@@ -216,7 +216,7 @@ section {
   font-weight: bolder;
   color: white;
   letter-spacing: 50px;
-  text-shadow: -4px -4px 10px white;
+  /*text-shadow: -4px -4px 10px white;*/
   /*top: 50%;*/
   /*display: flex;
   justify-content: center;*/
