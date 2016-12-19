@@ -436,3 +436,10 @@ section {
 #contact {
   color: white;
 }
+.contact-link {
+  color: white;
+}
+.contact-link:hover {
+  text-decoration: none;
+  color: #f5bb00;
+}
