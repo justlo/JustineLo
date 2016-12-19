@@ -10,7 +10,7 @@ body, html {
 }
 
 
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 , .bgimg-6{
   position: relative;
   /*opacity: 0.65;*/
   opacity: 1;
@@ -21,8 +21,9 @@ body, html {
 
 }
 .bgimg-1 {
-  background-image: url("../img_parallax.jpg");
-  min-height: 100%;
+  background-image: url("../images/hair.png");
+  /*min-height: 100%;*/
+  min-height: 800px;
 }
 
 .bgimg-2 {
@@ -33,7 +34,7 @@ body, html {
 }
 
 .bgimg-3 {
-  background-image: url("../images/photogrid_Sat-65.png");
+  background-image: url("../images/Justine_Site.png");
   min-height: 800px;
 }
 
@@ -47,6 +48,10 @@ body, html {
   background-color: transparent;
   min-height: 400px;
   color: white;
+}
+.bgimg-6 {
+  background-image: url("../images/photogrid_Sat-65_Cont50.png");
+  min-height: 800px;
 }
 .caption {
   position: absolute;
@@ -95,6 +100,9 @@ h3 {
   font: 20px "Lato", sans-serif;
   color: #111;
 }
+.work-link {
+  color: white;
+}
 .mybutton {
   width: 300px;
   background: transparent;
@@ -113,6 +121,24 @@ h3 {
   color: black;
 }
 
+.bgimg-6 .mybutton {
+  width: 500px;
+  background-color: black;
+  opacity: 0.75;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.bgimg-6 .mybutton:hover {
+  background: #f5bb00;
+  color: black;
+}
+@media (max-width: 550px) {
+  .bgimg-6 .mybutton {
+    width: 350px;
+    font-size: 12px;
+  }
+}
 /*home-buttons button{
     width: 200px;
     background-color: #ff8093;
@@ -149,6 +175,10 @@ h1 {
   font-family: 'Oswald', sans-serif !important;
   text-transform: uppercase;
 }
+h5 {
+  font-family: 'Oswald', sans-serif !important;
+  text-transform: uppercase;
+}
 .container-fluid {
   /*min-height: 1000px;*/
   padding: 0; important!
@@ -177,7 +207,8 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  top: 40%;
+  /*height: 100%;*/
 }
 #hello-div div{
   font-family: 'Roboto Condensed', sans-serif !important;
@@ -189,27 +220,34 @@ section {
   /*top: 50%;*/
   /*display: flex;
   justify-content: center;*/
-  z-index: 1;
+  /*z-index: 1;*/
+}
+@media (max-width: 550px) {
+  #hello-div div {
+    font-size: 80px;
+    letter-spacing: 10px;
+  }
 }
 
-@keyframes bouncing {
+@keyframes bounce {
     0% {bottom: 0;}
     50% {bottom: 20px;}
     100% {bottom: 0;}
 }
 
 .arrow {
-    position: absolute;;
-    animation: bouncing 1s infinite ease-in-out;
-    bottom: 0;
+    /*background: lightgreen;*/
+    position: absolute;
+    animation: bounce 1s infinite ease-in-out;
+    /*bottom: 0;*/
     display: block;
     height: 50px;
     left: 50%;
     margin-left: -25px;
     width: 50px;
     margin-bottom: 8%;
-    z-index: 10;
-
+    /*top: 100px;*/
+    /*z-index: 10;*/
 }
 
 /*SECOND SECTION*/
@@ -282,6 +320,7 @@ section {
   text-align: left;
 }
 #about-text {
+  background-color: trans;
   text-align: left;
   margin-top: 40px;
   padding-left: 20%;
@@ -295,13 +334,57 @@ section {
 }*/
 
 #about-icons {
+  background-color: transparent;
   margin-top: 40px;
-  text-align: left;
+  text-align: center;
+  width: auto;
+  height: auto;
+  /*padding-right: 90px;*/
 }
 #about-icons div{
   font-family: 'Oswald', sans-serif;
 }
+#about-icons a {
+  color: black;
+}
+#resume-icon {
+  /*width: auto;*/
+}
+#resume-icon h5 {
+  padding-top: 10px;
 
+}
+
+#resume-icon a:hover, #resume-icon a:hover .fa-file-o:before {
+  content: "\f15b";
+  color: #f5bb00;
+  text-decoration: none;
+}
+
+#icon-text{
+  margin: 0px;
+}
+.fi-social-linkedin {
+  font-size: 55px;
+  color: black;
+}
+
+#linkedin-icon a:hover, #linkedin-icon a:hover .fi-social-linkedin:before {
+  color: #f5bb00;
+  text-decoration: none;
+}
+@media (max-width: 991px) {
+  #about-icons {
+    width: 100%;
+  }
+  #resume-icon {
+    padding-top: 10px;
+    padding-left: 40%;
+  }
+  #linkedin-icon {
+    padding-right: 40%;
+  }
+}
 /*.element {
   height: 100%;
   animation: appear 2s;
@@ -335,4 +418,21 @@ section {
 }
 #name {
   text-align: center;
+}
+
+#contact-section {
+  position: relative;
+  height: 400px;
+
+}
+#hello-div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 40%;
+  /*height: 100%;*/
+}
+#contact {
+  color: white;
 }

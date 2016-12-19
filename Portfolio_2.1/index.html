@@ -9,9 +9,10 @@
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/swiper.min.css">
+  <!-- <link rel="stylesheet" href="css/swiper.min.css"> -->
   <link rel="stylesheet" href="css/foundation-icons.css">
-  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto+Slab" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
@@ -27,16 +28,68 @@
     <div id="hello-div" class="container">
         <div>HELLO</div>
         <!-- <img id="hello_img" src="images/hello_welcome3_GIF.gif" width="70%" class="img-responsive"/> -->
-        <a href="#second-section"><img class="arrow" src="images/ic_keyboard_arrow_down_white_48dp_1x.png" width="100%"/></a>
+        <!-- <a href="#second-section"><img class="arrow" src="images/ic_keyboard_arrow_down_white_48dp_1x.png" width="100%"/></a> -->
         <!-- <img class="arrow" src="images/ic_keyboard_arrow_down_white_48dp_1x.png" width="10%"/> -->
     </div>
+    <a href="#second-section"><img class="hidden-xs arrow" src="images/ic_keyboard_arrow_down_white_48dp_1x.png" width="100%"/></a>
       <!-- <div id="about">
         <h2>JUSTINE</h2>
       </div> -->
   </section>
 
-  <section id="second-section">
+  <!-- <section id="second-section">
     <div id="second-div" class="block sticky_column">
+
+        <div id="about" class="col-xs-12">
+          <div id="name">
+            <h1>Justine Lo</h1>
+            <p>Engineering // Design <br>
+              Aspiring front-end developer</p>
+
+          </div>
+        </div>
+        <div id="about-content"class="container-fluid">
+          <div class="row">
+          <div id="about-text" class="col-xs-12 col-sm-9">
+            <p>Although I am a biomedical engineer by day, I am a front-end developer in the making by night.
+            I have always had a passion for design and aesthetics, and combined with my love of coding and engineering,
+            I hope to transition into a full-time front-end developer.</p>
+
+            <p>I have been developing my skils in
+              <span id="skills"><b>HTML</b></span>, <span id="skills"><b>CSS</b></span>, and <span id="skills"><b>Javascript</b></span>.
+            I am also learning <b>PHP</b> and how to ride the <b>Rails</b>.</p>
+
+            <p>I am also a part of a game development group. Alongside collaborative team, I am working in an agile environment
+            on the back-end development of our game.</p>
+          </div>
+          <div id="about-icons" class="col-xs-12 col-sm-3">
+            <div class="row">
+              <div class"col-xs-12">
+                <div id="resume-icon">
+                  <a class="about-link" href="">
+                    <i class="fa fa-file-o" style="font-size: 48px;"></i>
+                    <h5>RESUME</h5>
+                  </a>
+                </div>
+              </div>
+              <div class"col-xs-12">
+                <div id="linkedin-icon">
+                  <a class="about-link" href="http://www.linkedin.com/in/justine-lo">
+                    <i class="fi-social-linkedin" style="font-size: 55px;"></i>
+                    <h5 id="icon-text">linkedin</h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+  </div>
+  </section> -->
+
+  <section id="second-section">
+    <div id="second-div" class="container-fluid block sticky_column">
 
         <div id="about" class="col-xs-12">
           <div id="name">
@@ -47,30 +100,49 @@
               Aspiring front-end developer</p> -->
           </div>
         </div>
-        <div id="about-content"class="row">
-          <div id="about-text" class="col-xs-12 col-sm-9">
-            <p>Although I am a biomedical engineer by day, I am a front-end developer in the making by night.
-            I have always had a passion for design and aesthetics, and combined with my love of coding and engineering,
-            I hope to transition into a full-time front-end developer.</p>
-            <!-- <p>While immersed in constructing and displaying outputs from my data analyzes
-            I rediscovered my interest in not just design, but the meticulousness </p> -->
+        <div id="about-content">
+          <div class="row">
+            <div id="about-text" class="col-md-9 col-sm-12 col-xs-12">
 
-            <p>I have been developing my skils in
-              <span id="skills"><b>HTML</b></span>, <span id="skills"><b>CSS</b></span>, and <span id="skills"><b>Javascript</b></span>.
-            I am also learning <b>PHP</b> and how to ride the <b>Rails</b>.</p>
+                <p>Although I am a biomedical engineer by day, I am a front-end developer in the making by night.
+                I have always had a passion for design and aesthetics, and combined with my love of coding and engineering,
+                I hope to transition into a full-time front-end developer.</p>
+                <!-- <p>While immersed in constructing and displaying outputs from my data analyzes
+                I rediscovered my interest in not just design, but the meticulousness </p> -->
 
-            <p>I am also a part of a game development group. Alongside collaborative team, I am working in an agile environment
-            on the back-end development of our game.</p>
+                <p>I have been developing my skils in
+                  <span id="skills"><b>HTML</b></span>, <span id="skills"><b>CSS</b></span>, and <span id="skills"><b>Javascript</b></span>.
+                I am also learning <b>PHP</b> and how to ride the <b>Rails</b>.</p>
+
+                <p>I am also a part of a game development group. Alongside collaborative team, I am working in an agile environment
+                on the back-end development of our game.</p>
+
+            </div>
+            <div id="about-icons" class="col-md-3 col-sm-12">
+              <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-12">
+                  <div id="resume-icon">
+                    <a class="about-link" href="">
+                      <i class="fa fa-file-o" style="font-size: 48px;"></i>
+                      <h5>RESUME</h5>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-12">
+                  <div id="linkedin-icon">
+                    <a class="about-link" href="http://www.linkedin.com/in/justine-lo" target="_blank">
+                      <i class="fi-social-linkedin" style="font-size: 55px;"></i>
+                      <h5 id="icon-text">linkedin</h5>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- end icon row -->
+            </div> <!-- end icon div -->
           </div>
-          <div id="about-icons" class="row col-xs-12 col-sm-3">
-            <div class"col-xs-6 col-sm-12">RESUME</div>
-            <div class"col-xs-6 col-sm-12">LINKEDIN</div>
-          </div>
-        </div>
+        </div><!-- end about-contents -->
+    </div>
 
-  </div>
   </section>
-
 
 
   <!-- <div class="bgimg-1">
@@ -108,10 +180,10 @@
         <div class="contents">
           <h3>Personal Website</h3>
           <p>This is the personal website you are currently viewing.</p>
-          <p>It is a portfolio not only to showcase
-          my work but also a personal design experiment.<br>This is my personal space to explore design, aesthetics, and graphics.</p>
+          <p>It is a portfolio to not only showcase
+          my work but also a personal design experiment.<br>This is my space to explore design, aesthetics, and graphics.</p>
           <br><br><br>
-          <a href="" target="_blank"><button class="mybutton">visit site</button></a>
+          <a class="work-link" href="" target="_blank"><button class="mybutton">visit site</button></a>
         </div>
       </div>
     </div>
@@ -127,7 +199,7 @@
           <h3>Elana Brochin Yoga</h3>
           <p>A website designed for a local yoga instructor.</p>
           <br><br><br>
-          <a href="https://justlo.github.io/ElanaBrochinYoga/EBYoga_v2/index.html" target="_blank"><button class="mybutton">visit site</button></a>
+          <a class="work-link" href="https://justlo.github.io/ElanaBrochinYoga/EBYoga_v2/index.html" target="_blank"><button class="mybutton">visit site</button></a>
         </div>
       </div>
     </div>
@@ -153,16 +225,25 @@
     <div id="name_2" class="caption">
       <!-- <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">WORK</span> -->
       <h1>INTERESTS</h1>
-      <p>Photography // Drawing // 3D Printing </p>
+      <p>Photography // Food // 3D Printing </p>
     </div>
   </div>
-  <div class="bgimg-5">
-    <div id="name_2" class="caption">
+  <div class="bgimg-6">
+    <div class="caption">
+      <!-- <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">LESS HEIGHT</span> -->
+        <a href="https://www.flickr.com/photos/justinelo/" target="_blank"><button class="mybutton">check out more photos</button></a>
+    </div>
+</div>
+
+  <!-- <div class="bgimg-5"> -->
+  <section id="contact-section">
+    <div id="contact" class="caption">
       <!-- <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">WORK</span> -->
-      <h1>CONTACT</h1>
+      <!-- <h1>CONTACT</h1> -->
       <p>EMAIL // LINKEDIN // RESUME </p>
     </div>
-  </div>
+  </section>
+  <!-- </div> -->
 
 
 
