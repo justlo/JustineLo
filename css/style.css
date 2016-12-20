@@ -201,7 +201,67 @@ section {
   height: 850px;
 }
 
-
+/*Side Navigation*/
+.sideNavCont{
+  width: 13px;
+  height: 100px;
+  position: fixed;
+  left: 10px;
+  top: 35%;
+  margin-top: -30px;
+  z-index: 30;
+}
+.dot{
+  width: 12px;
+  height: 12px;
+  float: left;
+  background:  url(../images/navDot5.png) center bottom no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+  position: relative;
+  text-align: left;
+}
+.dot:hover{
+  background:  url(../images/navDot5.png) center top no-repeat;
+  background-size: 100%;
+}
+.thumbOff{
+  background:  url(../images/navDot5.png) center bottom no-repeat;
+  background-size: 100%;
+}
+.thumbOn{
+  background:  url(../images/navDot5.png) center top no-repeat;
+  background-size: 100%;
+}
+.dot p{
+  color: #8c8c8c; /*#4d4d4d;*/
+  float: left;
+  text-align: center;
+  display: inline-block;
+  width: 120px;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  opacity: 0;
+  margin-left: 20px;
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  transition:.2s;
+  margin-top: -3px;
+}
+.dot:hover p{
+  opacity: 1;
+  left: 75px;
+  margin-left: 30px;
+}
+.sideNavCont a{
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
 /*FIRST SECTION*/
 #first-section {
   height: 950px;
@@ -367,26 +427,35 @@ section {
 }
 #resume-icon h5 {
   padding-top: 10px;
-
 }
-
+#linkedin-icon h5 {
+  padding-top: 10px;
+}
+#linkedin-icon {
+  padding-top: 0px;
+}
 #resume-icon a:hover, #resume-icon a:hover .fa-file-o:before {
   content: "\f15b";
   color: #f5bb00;
   text-decoration: none;
 }
 
-#icon-text{
-  margin: 0px;
-}
-.fi-social-linkedin {
+
+/*.fi-social-linkedin {
   font-size: 55px;
   color: black;
-}
+}*/
 
-#linkedin-icon a:hover, #linkedin-icon a:hover .fi-social-linkedin:before {
+#linkedin-icon a:hover, #linkedin-icon a:hover .fa-square-o:before {
+  /*font-size: 48px;*/
+  content: "\f08c";
   color: #f5bb00;
   text-decoration: none;
+}
+a:hover .fa-linkedin:before {
+  /*font-size: 48px;*/
+  display: none;
+  /*text-decoration: none;*/
 }
 @media (max-width: 991px) {
   #about-icons {
@@ -420,13 +489,13 @@ section {
 }*/
 
 /*THIRD SECTION*/
-#third-section {
+/*#third-section {
   background-color: lightgreen;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 15;
-}
+}*/
 #third-div {
   background-color: darkgray;
   z-index: 20;
