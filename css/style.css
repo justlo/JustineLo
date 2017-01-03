@@ -139,30 +139,7 @@ h3 {
     font-size: 12px;
   }
 }
-/*home-buttons button{
-    width: 200px;
-    background-color: #ff8093;
-    border: none;
-    color: white;
-    padding: 10px 60px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 2px;
-}*/
-
-
-
-
-
-
-
-
-
-
+/
 /**/
 /**/
 /**/
@@ -199,6 +176,7 @@ h5 {
 }
 section {
   height: 850px;
+  width: 100%;
 }
 
 /*Side Navigation*/
